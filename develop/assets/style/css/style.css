@@ -1,0 +1,12 @@
+.nav-tabs {
+    background-color: darkgrey;
+    
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    color: black;
+}
