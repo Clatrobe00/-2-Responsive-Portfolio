@@ -11,9 +11,19 @@
     color: black;
 }
 
-#contact-block {
+#contact-block, #contact-blurb {
     background-color: darkgrey;
     padding: 20px;
+}
+
+#contact-block {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#contact-blurb {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .contact-form {
@@ -24,4 +34,11 @@
 .contact-form-input {
     width: 95%;
 }
+
+#message-input {
+    height: 150px;
+}
+
+
+
 
