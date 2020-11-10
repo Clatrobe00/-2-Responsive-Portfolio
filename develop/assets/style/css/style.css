@@ -16,17 +16,17 @@
     margin: 5px;
 }
 
-#contact-block, #contact-blurb, .portfolio-content, #bio-block {
+#contact-block, #contact-blurb, .portfolio-content, #bio-block, .footer{
     background-color: darkgrey;
     padding: 20px;
 }
 
-#contact-block, .portfolio-content, #bio-block, .bio-content {
+#contact-block, .portfolio-content, #bio-block, .bio-content, .footer {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-#contact-blurb, .portfolio-content, #bio-block, #bio-pic, .bio-card, #bio-blurb, #sidebar-content {
+#contact-blurb, .portfolio-content, #bio-block, #bio-pic, .bio-card, #bio-blurb, #sidebar-content, .footer {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -36,15 +36,15 @@
     margin-left: 10px;
 }
 
-.contact-form-input {
-    width: 95%;
+.card-title {
+    width: 90%;
 }
 
 #message-input {
     height: 150px;
 }
 
-.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb {
+.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb, .footer {
     padding: 20px;
 }
 
@@ -70,7 +70,7 @@
     text-decoration: underline;
 }
 
-.portfolio-content, .contact-wrapper, .bio-wrapper, .invisible {
+.portfolio-content, .contact-wrapper, .bio-wrapper, .invisible, .footer {
     margin: 5px;
 }
 
