@@ -55,7 +55,7 @@
     border-radius: 10px;
   }
 
-.port-descrip a {
+.port-descrip a, .sm-links a {
       text-decoration: underline;
       color: black
     }
@@ -72,6 +72,10 @@
 #prof-pic {
     border-radius: 200px;
     padding: 10px;
+}
+
+#sidebar-content {
+    height: 500px
 }
 
 
