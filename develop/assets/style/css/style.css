@@ -11,17 +11,21 @@
     color: black;
 }
 
+.bio-card {
+    background-color: white;
+}
+
 #contact-block, #contact-blurb, .portfolio-content, #bio-block {
     background-color: darkgrey;
     padding: 20px;
 }
 
-#contact-block, .portfolio-content, #bio-block {
+#contact-block, .portfolio-content, #bio-block, .bio-card {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-#contact-blurb, .portfolio-content, #bio-block {
+#contact-blurb, .portfolio-content, #bio-block, #bio-pic, .bio-card {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -48,6 +52,7 @@
     margin-right: 15px;
     margin-left: 15px;
     box-shadow: 0 0 3px 2px rgb(0, 0, 0);
+    border-radius: 10px;
   }
 
 .port-descrip a {
@@ -68,6 +73,8 @@
     border-radius: 200px;
     padding: 10px;
 }
+
+
 
 
 
