@@ -11,8 +11,9 @@
     color: black;
 }
 
-.bio-card, #bio-blurb {
+.bio-content {
     background-color: white;
+    margin: 5px;
 }
 
 #contact-block, #contact-blurb, .portfolio-content, #bio-block {
@@ -20,12 +21,12 @@
     padding: 20px;
 }
 
-#contact-block, .portfolio-content, #bio-block, .bio-card, #bio-blurb {
+#contact-block, .portfolio-content, #bio-block, .bio-content {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-#contact-blurb, .portfolio-content, #bio-block, #bio-pic, .bio-card, #bio-blurb {
+#contact-blurb, .portfolio-content, #bio-block, #bio-pic, .bio-card, #bio-blurb, #sidebar-content {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -43,7 +44,7 @@
     height: 150px;
 }
 
-.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb {
+.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb, #sidebar-content {
     padding: 20px;
 }
 
@@ -74,9 +75,7 @@
     padding: 10px;
 }
 
-#sidebar-content {
-    height: 500px
-}
+
 
 
 
