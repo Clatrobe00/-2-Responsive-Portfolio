@@ -11,17 +11,17 @@
     color: black;
 }
 
-#contact-block, #contact-blurb, #portfolio-block {
+#contact-block, #contact-blurb, #portfolio-block, #bio-block {
     background-color: darkgrey;
     padding: 20px;
 }
 
-#contact-block, #portfolio-block {
+#contact-block, #portfolio-block, #bio-block {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-#contact-blurb, #portfolio-block {
+#contact-blurb, #portfolio-block, #bio-block {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -39,7 +39,7 @@
     height: 150px;
 }
 
-.contact-wrapper, .portfolio-wrapper {
+.contact-wrapper, .portfolio-wrapper, .bio-wrapper {
     padding: 20px;
 }
 
