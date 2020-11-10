@@ -60,7 +60,7 @@
     text-decoration: underline;
 }
 
-.portfolio-content {
+.portfolio-content, .contact-wrapper, .bio-wrapper, .invisible {
     margin: 5px;
 }
 
