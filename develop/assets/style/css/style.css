@@ -11,24 +11,24 @@
     color: black;
 }
 
-#contact-block, #contact-blurb {
+#contact-block, #contact-blurb, #portfolio-block {
     background-color: darkgrey;
     padding: 20px;
 }
 
-#contact-block {
+#contact-block, #portfolio-block {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-#contact-blurb {
+#contact-blurb, #portfolio-block {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
 
 .contact-form {
     margin-bottom: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .contact-form-input {
@@ -38,6 +38,11 @@
 #message-input {
     height: 150px;
 }
+
+.contact-wrapper, .portfolio-wrapper {
+    padding: 20px;
+}
+
 
 
 
