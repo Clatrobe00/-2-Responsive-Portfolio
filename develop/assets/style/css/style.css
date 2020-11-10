@@ -44,8 +44,12 @@
     height: 150px;
 }
 
-.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb, #sidebar-content {
+.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb {
     padding: 20px;
+}
+
+#sidebar-content {
+    padding: 30px;
 }
 
 .portfolio-thumbnail {
