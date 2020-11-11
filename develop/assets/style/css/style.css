@@ -11,30 +11,33 @@
     color: black;
 }
 
-.bio-content {
+.bio-content, .portfolio-content {
     background-color: white;
     margin: 5px;
 }
 
-#contact-block, #contact-blurb, .portfolio-content, #bio-block, .footer{
+#contact-block, #contact-blurb, #portfolio-block, #bio-block, .footer{
     background-color: darkgrey;
     padding: 20px;
 }
 
-#contact-block, .portfolio-content, #bio-block, .bio-content, .footer {
+#contact-block, .portfolio-content, #portfolio-block, #bio-block, .bio-content, .footer {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-#contact-blurb, .portfolio-content, #bio-block, #bio-pic, .bio-card, #bio-blurb, #sidebar-content, .footer {
+#contact-blurb, .portfolio-content, #bio-block, #bio-pic, .bio-card, #bio-blurb, #sidebar-content, #portfolio-block, .footer {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
+
 
 .contact-form {
     margin-bottom: 10px;
     margin-left: 10px;
 }
+
+
 
 .card-title {
     width: 90%;
@@ -44,12 +47,16 @@
     height: 150px;
 }
 
-.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb, .footer {
+.contact-wrapper, .portfolio-wrapper, .bio-wrapper, #bio-blurb, .footer, .portfolio-content {
     padding: 20px;
 }
 
 #sidebar-content {
     padding: 30px;
+}
+
+#portfolio-block {
+    margin-bottom: 10px;
 }
 
 .portfolio-thumbnail {
@@ -70,7 +77,7 @@
     text-decoration: underline;
 }
 
-.portfolio-content, .contact-wrapper, .bio-wrapper, .invisible, .footer {
+.contact-wrapper, .bio-wrapper, .invisible, .footer, .portfolio-wrapper {
     margin: 5px;
 }
 
