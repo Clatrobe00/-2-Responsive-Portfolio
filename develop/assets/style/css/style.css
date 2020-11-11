@@ -85,7 +85,16 @@
     padding: 10px;
 }
 
-
+@media (max-width: 567px) {
+    .nav-tabs li { width:100%; }
+    .contact-wrapper, #contact-block {
+        background-color: black;
+        color: white;
+    }
+    .contact-content {
+        color: black;
+    }
+  }
 
 
 
