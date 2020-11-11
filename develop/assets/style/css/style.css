@@ -71,8 +71,8 @@
       color: black
 }
 
-.port-descrip a:hover {
-    color: white;
+.port-descrip a:hover, .nav-link:hover, #bio-blurb a:hover {
+    color: dimgrey;
     text-decoration: underline;
 }
 
