@@ -1,6 +1,5 @@
 .nav-tabs {
-    background-color: darkgrey;
-    
+    background-color: darkgrey;    
 }
 
 .nav-link {
@@ -21,23 +20,14 @@
     padding: 20px;
 }
 
-#contact-block, .portfolio-content, #portfolio-block, #bio-block, .bio-content, .footer, .contact-content {
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+#contact-block, #bio-block, #portfolio-block, .bio-content, .portfolio-content, .contact-content, .footer {
+    border-radius: 25px;
 }
-
-#contact-block, .portfolio-content, #bio-block, #bio-pic, .bio-card, #bio-blurb, #sidebar-content, #portfolio-block, .footer, .contact-content {
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-}
-
 
 .contact-form {
     margin-bottom: 10px;
     margin-left: 10px;
 }
-
-
 
 .card-title {
     width: 90%;
@@ -65,12 +55,12 @@
     margin-left: 15px;
     box-shadow: 0 0 3px 2px rgb(0, 0, 0);
     border-radius: 10px;
-  }
+}
 
 .port-descrip a, .sm-links a {
       text-decoration: underline;
       color: black
-    }
+}
 
 .port-descrip a:hover {
     color: white;
