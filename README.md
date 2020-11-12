@@ -32,4 +32,4 @@ Contact Mobile
 
 ![Contact](develop/assets/images/contact-mobile.png)
 
-I am currently working towards adding functionality to the contact form on my contact page.
+Contact Form now has functionality!
