@@ -13,7 +13,7 @@ a.active.nav-link{background-color: white;}
     margin: 5px;
 }
 
-#contact-block, #portfolio-block, #bio-block {
+#contact-block, .portfolio-block, #bio-block {
     background-color: darkgrey;
     padding: 20px;
 }
@@ -23,7 +23,7 @@ a.active.nav-link{background-color: white;}
     padding-top: 20px;
 }
 
-#contact-block, #bio-block, #portfolio-block, .bio-content, .portfolio-content, .contact-content, .footer {
+#contact-block, #bio-block, .portfolio-block, .bio-content, .portfolio-content, .contact-content, .footer {
     border-radius: 25px;
 }
 
@@ -52,7 +52,7 @@ a.active.nav-link{background-color: white;}
     padding: 30px;
 }
 
-#portfolio-block, #contact-block, #bio-block {
+.portfolio-block, #contact-block, #bio-block {
     margin-bottom: 10px;
 }
 
@@ -87,7 +87,7 @@ a.active.nav-link{background-color: white;}
     .nav-tabs li { 
         width:100%; 
     }
-    .contact-wrapper, #contact-block, .portfolio-wrapper, #portfolio-block, #bio-block, .bio-wrapper {
+    .contact-wrapper, #contact-block, .portfolio-wrapper, .portfolio-block, #bio-block, .bio-wrapper {
         background-color: darkcyan;
         color: white;
         text-align: center; 
