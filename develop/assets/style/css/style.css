@@ -87,13 +87,15 @@
 
 @media (max-width: 567px) {
     .nav-tabs li { width:100%; }
-    .contact-wrapper, #contact-block {
+    .contact-wrapper, #contact-block, .portfolio-wrapper, #portfolio-block, #bio-block, .bio-wrapper {
         background-color: black;
         color: white;
+        text-align: center;
     }
-    .contact-content {
+    .contact-content, .portfolio-content, .bio-content {
         color: black;
     }
+
   }
 
 
