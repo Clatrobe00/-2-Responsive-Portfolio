@@ -32,13 +32,13 @@
     </div>
     <div class="row" id="contact-block">
       <div class="col-md contact-content">
-        <form>
+        <form action="https://formspree.io/f/mbjpkgpg" method="POST">
           <div class="contact-form">
             <div class="row">
               <label for="name-input">Your Name</label>
             </div>
             <div class="row">
-                <input type="contact-name" class="contact-form-input" id="name-input">
+                <input type="contact-name" class="contact-form-input" id="name-input" name="user-name">
             </div>
           </div>
           <div class="contact-form">
@@ -46,7 +46,7 @@
               <label for="email-input">Email</label>
             </div>
             <div class="row">
-              <input type="email" class="contact-form-input" id="email-input" placeholder="your_email@email.com">
+              <input type="email" class="contact-form-input" id="email-input" placeholder="your_email@email.com" name="user-email">
             </div>
             </div>
           <div class="contact-form">
@@ -54,12 +54,12 @@
               <label for="message-input">Message</label>
             </div>
             <div class="row">
-              <textarea class="contact-form-input" id="message-input" rows="3"></textarea>
+              <textarea class="contact-form-input" id="message-input" rows="3" name="user-message"></textarea>
             </div>
           </div>
           <div class="row">
             <div class="contact-form">
-              <button type="submit" class="btn btn-info">Send</button>
+              <button type="submit" class="btn btn-info" value="send">Send</button>
             </div>
           </div>
         </form>
