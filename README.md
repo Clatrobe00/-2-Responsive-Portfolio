@@ -17,3 +17,19 @@ A Portfolio Page:
 A Contact Page:
 
 ![Contact](develop/assets/images/contact.png)
+
+And responsive mobile layouts for each:
+
+Home Mobile:
+
+![Home](develop/assets/images/home-mobile.png)
+
+Portfolio Mobile:
+
+![Portfolio](develop/assets/images/portfolio-mobile.png)
+
+Contact Mobile
+
+![Contact](develop/assets/images/contact-mobile.png)
+
+I am currently working towards adding functionality to the contact form on my contact page.
