@@ -107,14 +107,9 @@ a.active.nav-link{background-color: white;}
         background-color: dimgray;
     }
 
-    /*.footer-block {
-        background-color: dimgray;
+    .footer-block h5 {
         color: black;
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        border-radius: 25px;
-    }*/
+    }
 
     
 
