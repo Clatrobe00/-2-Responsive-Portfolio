@@ -87,7 +87,7 @@ a.active.nav-link{background-color: white;}
     .nav-tabs li { 
         width:100%; 
     }
-    body, .footer-block, .contact-wrapper, #contact-block, .portfolio-wrapper, #portfolio-block, #bio-block, .bio-wrapper {
+    .contact-wrapper, #contact-block, .portfolio-wrapper, #portfolio-block, #bio-block, .bio-wrapper {
         background-color: darkcyan;
         color: white;
         text-align: center; 
