@@ -6,4 +6,14 @@ My personal site is deployed at the following url: https://clatrobe00.github.io/
 
 My website is responsive for smart devices, and currently functions on both laptop and mobile browsers.
 
-My personal site features a home 
+My personal site features a home page:
+
+![Home](develop/assets/images/homepage.png)
+
+A Portfolio Page:
+
+![Portfolio](develop/assets/images/portfolio.png)
+
+A Contact Page:
+
+![Contact](develop/assets/images/contact.png)
